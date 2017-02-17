@@ -1,4 +1,6 @@
-# R-Introduction-Tutorial
+# R INTRODUCTION
+
+# Creating a data set:
 
 R works with packages that contain the techniques and functions you need. To start with some basic examples you need to know how to install and load a package. 
 
@@ -29,5 +31,13 @@ data
 ## read a csv file - if the first row of the data is name for each variable, header should equal to TRUE
 csv_data <- read.csv(name_of_file.csv,header=TRUE)
 ~~~
+
+# Reviewing a data set:
+
+You can review the structure of the data set using the following functions.
+
+~~~~
+## using a data set example from the alr4 package
+
 
 
