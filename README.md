@@ -16,8 +16,18 @@ R data is manipulated with dataframes; data should be preferable in "matrix" for
 ## create a data set: create variables using the c function. This function keeps values together.
 x1 <- c("big","data","analytics")
 x2 <- c(4, 5, 2)
+
+## dataframe function - you can add a name to each variable
 data <- data.frame(words=x1,count=x2)
 
+data
+      words count
+1       big     4
+2      data     5
+3 analytics     2
 
+## read a csv file - if the first row of the data is name for each variable, header should equal to TRUE
+csv_data <- read.csv(name_of_file.csv,header=TRUE)
+~~~
 
 
